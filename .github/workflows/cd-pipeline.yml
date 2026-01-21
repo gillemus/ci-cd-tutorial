@@ -42,5 +42,5 @@ jobs:
           region: us-central1              # Región barata y estándar
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           flags: '--allow-unauthenticated' # IMPORTANTE: Para que pueda ver la web pública
-          env_vars: |
-            PORT=8080
+         # env_vars: |
+         #   PORT=8080
